@@ -31,6 +31,14 @@ public class CadastroEbac {
         System.out.println("Digite seu estado civil: ");
         estadoCivil = sc.nextLine();
 
+        System.out.println("\n--- Dados cadastrados ---");
+        System.out.println("Nome completo: " + nome);
+        System.out.println("CPF: " + cpf);
+        System.out.println("Idade: " + idade + " anos");
+        System.out.println("Peso: " + peso + " kg");
+        System.out.println("Altura: " + altura + " m");
+        System.out.println("Estado civil: " + estadoCivil);
+
         sc.close();
 
     }
